@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #val{
+        height: 30px;
+        width: 50%;
+
+
+    }
+    #val:hover{
+        color: black;
+        background-color: white; 
+    }
+    button{
+width: 100px;
+
+        justify-content: center;
+        display: flex;
+        color: white;
+        background-color: black;
+    }
+    button:hover{
+        color: black;
+        background-color: white;  
+    }
+</style>
+<body>
+    <input type="text" id="val" placeholder="Enter your number">
+   <button onlick="btn()">click</button>
+
+    <script>
+        function btn(){
+        var a=parseInt(document.getElementById("val").value);
+        switch(a){
+            case 0:
+                document.write("aptech");
+                break;
+                case 2:
+                document.write("rayyan");
+                break;
+                case 3:
+                document.write("arif");
+                break;
+                default:
+                    document.write("ENTER VALID NAME")
+                    break
+        }
+    }
+    </script>
+    </div>
+</div>
+</div>
+    
+</body>
+</html>
